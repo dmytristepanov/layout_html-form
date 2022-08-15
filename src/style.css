@@ -1,1 +1,11 @@
-/* styles go here */
+.fieldset {
+  margin-bottom: 20px;
+}
+
+.labeledInput {
+  display: block;
+}
+
+.labeledInput:not(:last-child) {
+  margin-bottom: 10px;
+}
